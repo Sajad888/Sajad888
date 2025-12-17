@@ -1,0 +1,121 @@
+`https://git.example.org/sajad/archive`  
+- Issue tracker: `https://gith
+label,date,event
+established,1988-01-01,Project established
+attic_issue_created,2025-12-01,Attic issue opened
+retirement,2025-12-17,Board retirement date
+attic_transfer,2025-12-17,Transferred to Attic
+manifest_signed,2025-12-17,Manifest signed
+label,date,event
+established,1988-01-01,Project established
+attic_issue_created,2025-12-01,Attic issue opened
+retirement,2025-12-17,Board retirement date
+attic_transfer,2025-12-17,Transferred to Attic
+manifest_signed,2025-12-17,Manifest signed
+# Projects Data Directory
+
+این پوشه شامل فایل‌های YAML متادیتا برای پروژه‌های بازنشسته یا آرشیوی است. هر فایل باید با نام `project_id.yaml` ذخیره شود.
+
+## ساختار فایل YAML
+- **project_id**: شناسه یکتا (نام فایل بدون پسوند)
+- **retirement_date**: تاریخ بازنشستگی (الزامی)
+- **project_description**: شرح پروژه (الزامی)
+- **board_resolution**, **board_reports**, **downloads**: مقادیر بولی برای پیوند به گزارش‌ها و آرشیو
+- **source_repositories**, **mailing_lists**, **issue_trackers**, **wiki**: لینک‌ها و پیکربندی‌های مرتبط
+
+## روند انتشار
+1. فایل YAML را در `_data/projects/` اضافه کنید با نام `project_id.yaml`.
+2. پیام کامیت را واضح بنویسید، مثال: `Add sajad-archive project metadata (ATTIC-999)`.
+3. در صورت نیاز به بنر، `attic_banner: true` را تنظیم کنید.
+4. برای امضای رمزنگاری‌شده، مقدار SHA256 را در `additional_text` یا `sha256_signature` قرار دهید.
+# Projects Data Directory
+
+این پوشه شامل فایل‌های YAML متادیتا برای پروژه‌های بازنشسته یا آرشیوی است. هر فایل باید با نام `project_id.yaml` ذخیره شود.
+
+## ساختار فایل YAML
+- **project_id**: شناسه یکتا (نام فایل بدون پسوند)
+- **retirement_date**: تاریخ بازنشستگی (الزامی)
+- **project_description**: شرح پروژه (الزامی)
+- **board_resolution**, **board_reports**, **downloads**: مقادیر بولی برای پیوند به گزارش‌ها و آرشیو
+- **source_repositories**, **mailing_lists**, **issue_trackers**, **wiki**: لینک‌ها و پیکربندی‌های مرتبط
+
+## روند انتشار
+1. فایل YAML را در `_data/projects/` اضافه کنید با نام `project_id.yaml`.
+2. پیام کامیت را واضح بنویسید، مثال: `Add sajad-archive project metadata (ATTIC-999)`.
+3. در صورت نیاز به بنر، `attic_banner: true` را تنظیم کنید.
+4. برای امضای رمزنگاری‌شده، مقدار SHA256 را در `additional_text` یا `sha256_signature` قرار دهید.
+# Projects Data Directory
+
+این پوشه شامل فایل‌های YAML متادیتا برای پروژه‌های بازنشسته یا آرشیوی است. هر فایل باید با نام `project_id.yaml` ذخیره شود.
+
+## ساختار فایل YAML
+- **project_id**: شناسه یکتا (نام فایل بدون پسوند)
+- **retirement_date**: تاریخ بازنشستگی (الزامی)
+- **project_description**: شرح پروژه (الزامی)
+- **board_resolution**, **board_reports**, **downloads**: مقادیر بولی برای پیوند به گزارش‌ها و آرشیو
+- **source_repositories**, **mailing_lists**, **issue_trackers**, **wiki**: لینک‌ها و پیکربندی‌های مرتبط
+
+## روند انتشار
+1. فایل YAML را در `_data/projects/` اضافه کنید با نام `project_id.yaml`.
+2. پیام کامیت را واضح بنویسید، مثال: `Add sajad-archive project metadata (ATTIC-999)`.
+3. در صورت نیاز به بنر، `attic_banner: true` را تنظیم کنید.
+4. برای امضای رمزنگاری‌شده، مقدار SHA256 را در `additional_text` یا `sha256_signature` قرار دهید.
+
+## نکات امنیتی و آرشیوی
+- هش‌ها را از منبع معتبر تولید کنید و در یک فایل امضاشده جداگانه نگهداری کنید.
+- لینک‌های خارجی را بررسی کنید تا به منابع عمومی و قابل دسترسی اشاره کنند.
+# Projects Data Directory
+
+این پوشه شامل فایل‌های YAML متادیتا برای پروژه‌های بازنشسته یا آرشیوی است. هر فایل باید با نام `project_id.yaml` ذخیره شود.
+
+## ساختار فایل YAML
+- **project_id**: شناسه یکتا (نام فایل بدون پسوند)
+- **retirement_date**: تاریخ بازنشستگی (الزامی)
+- **project_description**: شرح پروژه (الزامی)
+- **board_resolution**, **board_reports**, **downloads**: مقادیر بولی برای پیوند به گزارش‌ها و آرشیو
+- **source_repositories**, **mailing_lists**, **issue_trackers**, **wiki**: لینک‌ها و پیکربندی‌های مرتبط
+
+## روند انتشار
+1. فایل YAML را در `_data/projects/` اضافه کنید با نام `project_id.yaml`.
+2. پیام کامیت را واضح بنویسید، مثال: `Add sajad-archive project metadata (ATTIC-999)`.
+3. در صورت نیاز به بنر، `attic_banner: true` را تنظیم کنید.
+4. برای امضای رمزنگاری‌شده، مقدار SHA256 را در `additional_text` یا `sha256_signature` قرار دهید.
+**ضمیمه‌ها**  
+- لینک مخزن: `https://git.example.org/sajad/archive`  
+- issue tracker: `https://github.com/example/sajad/issues`  
+- QR anchor: ( 515884163808)
+project_id: sajad-archive
+project_type: Subproject
+project_name: آرشیو سجاد پیرمرادیان
+project_longname: آرشیو آیینی سجاد پیرمرادیان
+project_domain: sajad.example.org
+established_date: 1988-01-01
+retirement_date: 2025-12-17
+attic_issue: ATTIC-999
+attic_date: 2025-12-17
+attic_banner: true
+project_description: >-
+  آرشیوی آیینی که نقاط عطف، ویترین‌ها و آثار بسته‌شدن مرتبط با پروژه‌ها
+  و همکاری‌های عمومی سجاد پیرمرادیان را ثبت می‌کند.
+project_shortdesc: آرشیو آیینی و آثار بسته‌شدن
+additional_text: >-
+  SHA256: <put-hash-here>
+  مانیفست امضا شده و لنگرهای QR در فایل‌های انتشار قرار دارند.
+project_id,project_name,established_date,retirement_date,completion_date,type
+any23,Apache Any23,2012-08-28,2023-06-21,2023-07-01,PMC
+sajad-archive,Sajad Pirmoradian Archive,1988-01-01,2025-12-17,2025-12-17,Subproject
+import pandas as pd
+import matplotlib.pyplot as plt
+df = pd.read_csv('projects_timeline.csv', parse_dates=['established_date','retirement_date'])
+plt.figure(figsize=(10,3))
+for i,row in df.iterrows():
+    plt.plot([row['established_date'], row['retirement_date']], [i,i], marker='o')
+    plt.text(row['retirement_date'], i, '  '+row['project_name'], va='center')
+plt.yticks([])
+plt.xlabel('Year')
+plt.title('Projects Lifecycle Timeline')
+plt.tight_layout()
+plt.show()
+
+## نکات امنیتی و آرشیوی
+
